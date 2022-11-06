@@ -1,0 +1,103 @@
+{
+  "tests": [
+    {
+      "name": "Jurnal01a",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "Dira\nRadi\n16",
+      "output": "Halo, Dira. Selamat sore.\nHalo, Radi. Selamat sore.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Jurnal02a",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "Potong bebek angsa masak di kuali",
+      "output": "Potong bobok ongso mosok do koolo",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Jurnal02b",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "Cicak cicak di dinding diam diam merayap",
+      "output": "Cacak cacak da dandang daam daam marayap",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Jurnal03a",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "7 5",
+      "output": "343.113 527.788",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "TP01a",
+      "setup": "javac TP01.java",
+      "run": "java TP01",
+      "input": "62.6 79.0 89.6",
+      "output": "17.0 26.1 32.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "TP02a",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "Pak, hari ini saya mau minta izin, soalnya lagi ada keperluan mendadak yang urgent, jadi belum bisa mengikuti mata kuliah Bapak, sebagai gantinya saya harap bisa diberi tugas tambahan untuk mengganti ketidakhadiran saya.",
+      "output": "Pk, hr n sy m mnt zn, slny lg d kprln mnddk yng rgnt, jd blm bs mngkt mt klh Bpk, sbg gntny sy hrp bs dbr tgs tmbhn ntk mnggnt ktdkhdrn sy.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "TP03a",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "Persegi\n3",
+      "output": "9 12",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TP03b",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "Persegi Panjang\n2 3",
+      "output": "6 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },{
+      "name": "TP03c",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "Segitiga\n3 4",
+      "output": "6 12",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TP03a",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "Lingkaran\n14",
+      "output": "153.86 43.96",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
